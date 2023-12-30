@@ -25,4 +25,3 @@ break down(v):If a system, relationship, or discussion breaks down, it fails bec
 endure(v):to suffer something difficult, unpleasant, or painful
 inherit(v):to receive money, a house, etc. from someone after they have died
 nurture(v):to take care of, feed, and protect someone or something, especially young children or plants, and help him, her, or it to develop
-    

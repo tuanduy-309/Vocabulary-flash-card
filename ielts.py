@@ -29,11 +29,16 @@ class FlashcardApp:
         self.definition_label = tk.Label(master, text="", font=("Arial", 20), wraplength=500)
         self.definition_label.pack(pady=10)
 
-        self.next_button = tk.Button(master, text="Next", command=self.show_next_word)
+        self.button_frame = tk.Frame(master)
+        self.button_frame.pack(side=tk.BOTTOM, pady=10)
+
+        # Đặt các nút vào trong khung
+        self.next_button = tk.Button(self.button_frame, text="Next", command=self.show_next_word)
         self.next_button.pack(side=tk.LEFT, padx=10)
 
-        self.show_def_button = tk.Button(master, text="Show Definition", command=self.show_definition)
+        self.show_def_button = tk.Button(self.button_frame, text="Show Definition", command=self.show_definition)
         self.show_def_button.pack(side=tk.RIGHT, padx=10)
+
 
         self.show_next_word()
 
