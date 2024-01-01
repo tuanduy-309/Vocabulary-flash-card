@@ -79,3 +79,4 @@ alternate (a):with first one thing, then another thing, and then the first thing
 brisk(a):quick, energetic, and active
 chronic(a):(especially of a disease or something bad) continuing for a long time
 obese (a):extremely fat in a way that is dangerous for health
+marital(a): connected with marriage
